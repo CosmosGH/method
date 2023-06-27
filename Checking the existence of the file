@@ -1,0 +1,10 @@
+import os.path
+from os import path
+def check_for_file():
+ print("File exists: ",path.exists("data.txt"))
+if __name__=="__main__":
+   check_for_file()
+    
+'''
+File exists:  False
+'''
